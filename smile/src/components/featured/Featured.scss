@@ -1,0 +1,45 @@
+.featured {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  background-color: #013914d5;
+  color: white;
+
+  .container {
+    width: 1400px;
+    display: flex;
+    align-items: center;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      h1 {
+        font-size: 50px;
+      }
+
+      .popular {
+        display: flex;
+        color: whitesmoke;
+        align-items: center;
+        font-weight: 400;
+        font-weight: lighter;
+        font-family: serif;
+        gap: 10px;
+
+        span {
+          width: max-content;
+        }
+      }
+    }
+
+    .right {
+      height: 100%;
+      img {
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+}
